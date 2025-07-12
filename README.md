@@ -107,8 +107,7 @@ Set up a Cloud Firestore database
 Now create a .env file in the root and paste your Firebase credentials like this:
 
 ini
-Copy
-Edit
+
 VITE_API_KEY=your_api_key
 VITE_AUTH_DOMAIN=your_auth_domain
 VITE_PROJECT_ID=your_project_id
@@ -121,9 +120,6 @@ VITE_APP_ID=your_app_id
 npm run dev
 You’re good to go!
 
-Screenshots
-Coming soon!
-(Add visuals of dashboards, map screen, ride posting, chat UI, and admin panel for a better overview.)
 
 👨‍💻 About the Developer
 Hi! I’m Nischal Chaudhary, a passionate software developer and student at East Central University. I love solving real-world problems with tech, and this ride-sharing app was designed to make daily transportation easier for our university community.
