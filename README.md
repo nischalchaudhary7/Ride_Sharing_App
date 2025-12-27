@@ -6,46 +6,46 @@ This project was built with a focus on real-world usability, featuring smart mat
 
 ---
 
-## 🧩 What This App Can Do
+## What This App Can Do
 
 Here’s what makes the ECU Ride Sharing App special:
 
-- Secure Login & Signup  
+1. Secure Login & Signup  
   Users can sign up as either a **driver** or **passenger** with email/password authentication via Firebase.
 
-- Role-Based Flow  
+2. Role-Based Flow  
   After logging in, users select their role. Drivers must be approved by the admin before accessing the full dashboard.
 
-- Google Maps for Location Selection  
+3. Google Maps for Location Selection  
   Users can drop pins for pickup and destination locations using Google Maps – improving accuracy and user experience.
 
--  Post or Request a Ride  
+4. Post or Request a Ride  
   - **Drivers** can post their ride with details like seats, pickup time, fare, and route.
   - **Passengers** can submit ride requests or search for available rides posted by drivers.
 
-- Real-Time Notifications  
+5. Real-Time Notifications  
   Passengers and drivers receive instant updates when someone accepts a ride, posts a request, or sends a message.
 
-- One-on-One Chat System  
+6. One-on-One Chat System  
   Once a ride is confirmed, passengers and drivers can chat directly within the app.
 
-- Fare Estimation and Negotiation  
+7. Fare Estimation and Negotiation  
   Passengers can suggest a fare, and drivers have the option to accept or propose a counter offer.
 
-- Smart Auto-Matching System 
+8. Smart Auto-Matching System 
   The app uses logic based on pickup location, destination, time, and seat availability to suggest matches between drivers and passengers.
 
-- Admin Panel 
-  Admins can:
+9. Admin Panel 
+   Admins can:
   - Approve/reject driver applications
   - View all ride histories
   - Manage disputes, emergency alerts, and user reports
   - Block or review users if needed
 
-- **Ride History and Feedback**  
-  All users can view their previous rides and leave ratings or feedback.
+10. Ride History and Feedback
+    All users can view their previous rides and leave ratings or feedback.
 
-- 🆘 **Emergency Contact System**  
+12. Emergency Contact System  
   Users can contact admins in emergencies and send their real-time location.
 
 ---
@@ -63,30 +63,44 @@ Here’s what makes the ECU Ride Sharing App special:
 
 ---
 
-## 📁 Project Folder Structure (Simplified)
+## Project Folder Structure (Simplified)
 
 ECU_Ridesharing_App/
 ├── Ride_app/
+
 │ ├── src/
+
 │ │ ├── pages/ # Dashboard, Login, Signup, Ride Requests, etc.
+
 │ │ ├── components/ # Navbar, Sidebar, Cards, Buttons, etc.
+
 │ │ ├── admin/ # Admin panel and admin-only views
+
 │ │ ├── services/ # Firebase and helper functions
+
 │ │ └── context/ # Global state (Auth, Roles)
+
 │ ├── App.jsx
+
 │ ├── main.jsx
+
 │ ├── App.css / index.css
+
 │ ├── .env # Firebase credentials (not uploaded)
+
 ├── .gitignore
+
 ├── README.md 
+
 ├── vite.config.js
+
 ├── package.json
 
 yaml
 
 ---
 
-## 🚀 Getting Started Locally
+##  Getting Started Locally
 
 ### 1. Clone the Repo
 
@@ -121,12 +135,12 @@ npm run dev
 You’re good to go!
 
 
-👨‍💻 About the Developer
+About the Developer
 Hi! I’m Nischal Chaudhary, a passionate software developer and student at East Central University. I love solving real-world problems with tech, and this ride-sharing app was designed to make daily transportation easier for our university community.
 
-📬 Email: nischalc75@gmail.com
+Email: nischalc75@gmail.com
 
-🔗 GitHub: @nischalchaudhary7
+GitHub: @nischalchaudhary7
 
 📄 License
 This project is released under the MIT License. Feel free to fork, improve, and use it – just give credit where it’s due!
